@@ -15,4 +15,4 @@ print (5+4)
 n = "hellllo"
 print (n)
 
-#
+#ITTVAGYOK?
