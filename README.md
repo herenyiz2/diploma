@@ -1,2 +1,5 @@
-# diploma
-A diploma munka tárhelye
+# Diplomamunka
+
+*Gépi látásra épülő munkavédelmi rendszer*
+
+A munkavédelmi rendszerek célja, hogy segítségükkel elkerülhetőek legyenek a munkavégzés közben fellépő balesetek. A jogszabályi előírások arra kötelezik a munkáltatókat, hogy ezt a lehető legmagasabb technikai szinvonalon biztosítsák. A gépi látás fejlődése lehetőséget ad arra, hogy ilyen célokra a gépi tanulás eszközkészletét is felhasználhassuk. A dolgozatban egy olyan rendszer tervezése és implementálása kerül bemutatásra, amely videóképből képes bizonyos szituációkat felismerni, és automatikusan eldönteni, hogy azok veszélyesnek vagy veszélytelennek tekinthetők. Mivel a probléma átlalánosan nehezen kezelhető, így a dolgozat első részében azt kell definiálni, hogy melyek azok a környezetek, eszközök, szituációk, amelyekben a rendszer nagy megbízhatósággal tudja majd jelezni, hogy ha munkavédelmi szempontból valamilyen probléma jelentkezne. Ehhez össze kell állítani egy mintaadatbázist, amely egyrészt a betanításhoz és teszteléshez használandó videókból áll, illetve a hozzájuk tartozó elvárt eredményekből, esetlegesen annotált formában a részeredményekből. A rendszer elkészítéséhez Python környezet, és OpenCV függvénykönyvtár használatára van szükség.
