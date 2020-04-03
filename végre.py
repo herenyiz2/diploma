@@ -1,18 +1,15 @@
 # -*- coding: utf-8 -*-
-"""
-Created on %(date)s
 
-@author: %(username)s
-"""
+import cv2
+from matplotlib import pyplot as plt
+import os
 
-#1 szám kiiratása
-print (5)
+image_path = r"C:\Users\Ildikó\Desktop\proba.png"
+image_path = r"C:\proba.png"
 
-#s müvelet eredményének kiirása
-print (5+4)
 
-# 'n' változóba eltarolunk egy szöveget, majd kiirni
-n = "hellllo"
-print (n)
+image = cv2.imread(image_path)
 
-#ITTVAGYOK?
+plt.figure()
+plt.imshow(image[:, :, 0])
+# plt.close()
