@@ -2,7 +2,7 @@
 """
 Created on Sat May 16 14:37:12 2020
 
-@author: Zsolti
+@author: Zoli
 """
 
 
